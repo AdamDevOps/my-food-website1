@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Restaurant Name</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Your Restaurant Name</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section id="home">
+        <div class="container">
+            <h2>Welcome to Your Restaurant Name</h2>
+            <p>Discover our amazing menu and enjoy a unique dining experience.</p>
+            <img src="restaurant.jpg" alt="Restaurant Interior">
+        </div>
+    </section>
+    
+    <section id="menu">
+        <div class="container">
+            <h2>Menu</h2>
+            <div class="menu-item">
+                <img src="samosa1.jpg" alt="Samosa 1">
+                <h3>Dish Name 1</h3>
+                <p>Description of Dish 1. <strong>$10.00</strong></p>
+            </div>
+            <div class="menu-item">
+                <img src="cool-cake.jpg" alt="Cool-cake 2">
+                <h3>Dish Name 2</h3>
+                <p>Description of Dish 2. <strong>$12.00</strong></p>
+            </div>
+            <div class="menu-item">
+                <img src="egg-puff2.jpg" alt="Egg Puff 2">
+                <h3>Dish Name 2</h3>
+                <p>Description of Dish 2. <strong>$12.00</strong></p>
+            </div>
+	    <div class="menu-item">
+                <img src="fruit-salad-bowl1.jpg" alt="Fruit Salad Bowl 1">
+                <h3>Dish Name 2</h3>
+                <p>Description of Dish 2. <strong>$12.00</strong></p>
+            </div>
+	    <div class="menu-item">
+                <img src="irani-tea1.jpg" alt="Irani Tea 1">
+                <h3>Dish Name 2</h3>
+                <p>Description of Dish 2. <strong>$12.00</strong></p>
+            </div>
+	    <div class="menu-item">
+                <img src="juices1.jpg" alt="Juices 1">
+                <h3>Dish Name 2</h3>
+                <p>Description of Dish 2. <strong>$12.00</strong></p>
+            </div>
+	    <div class="menu-item">
+                <img src="soft-drinks1.jpg" alt="Soft Drinks 1">
+                <h3>Dish Name 2</h3>
+                <p>Description of Dish 2. <strong>$12.00</strong></p>
+            </div>
+    </section>
+    
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Our story began with a passion for [cuisine type]. We strive to offer the best dining experience with fresh ingredients and great service.</p>
+            <img src="team.jpg" alt="Our Team">
+        </div>
+    </section>
+    
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+            <p>Phone: (123) 456-7890</p>
+            <p>Email: contact@yourrestaurant.com</p>
+            <p>Address: 123 Food Street, Tasty Town</p>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Your Restaurant Name. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
